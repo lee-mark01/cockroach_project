@@ -1,0 +1,33 @@
+# 가상환경 폴더
+venv/
+env/
+.venv/
+
+# 파이썬 캐시 및 임시 파일
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter notebook 체크포인트
+.ipynb_checkpoints/
+
+# 환경설정 파일
+.env
+.env.*
+
+# Mac OS, Windows 등 시스템 파일
+.DS_Store
+Thumbs.db
+
+# VSCode 세팅
+.vscode/
+.history/
+
+# 로그, 결과, 임시파일
+*.log
+*.tmp
+
+# 기타 빌드/배포
+dist/
+build/
+*.egg-info/

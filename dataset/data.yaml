@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['cockroach']
+
+roboflow:
+  workspace: marks-workspace-ciafp
+  project: cockroach-gkzut-1kcdz
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/marks-workspace-ciafp/cockroach-gkzut-1kcdz/dataset/3
